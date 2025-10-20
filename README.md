@@ -63,7 +63,7 @@ The RAG pipeline is orchestrated using the **LangChain** framework.
 4.  **Run the application:**
     The first time you run the application, it will process your documents, create embeddings, and build the vector database. Subsequent runs will load the existing database.
     ```bash
-    python runner.py
+    python main.py
     ```
 
 5.  **Start chatting!**
